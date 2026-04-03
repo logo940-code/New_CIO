@@ -1,0 +1,12 @@
+sources:
+  boj:
+    base_url: "https://www.boj.org.jm"
+    auctions_index: "/open-market-operations"
+    macro_files:
+      - code: inflation
+        url: "https://www.boj.org.jm/statistics/inflation.xlsx"
+      - code: remittances
+        url: "https://www.boj.org.jm/statistics/remittances.xlsx"
+  goj:
+    base_url: "https://www.mof.gov.jm"
+    rate_sheet_index: "/investor-relations/rate-sheets"
